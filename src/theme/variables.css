@@ -1,0 +1,46 @@
+/* MyReadList Theme — slim version */
+
+:root {
+  /* Primary — Indigo (buttons, tabs, progress bars) */
+  --ion-color-primary: #6366f1;
+  --ion-color-primary-rgb: 99, 102, 241;
+  --ion-color-primary-shade: #575ad4;
+
+  /* Status colors */
+  --ion-color-success: #10b981;
+  --ion-color-success-rgb: 16, 185, 129;
+
+  --ion-color-warning: #f59e0b;
+  --ion-color-warning-rgb: 245, 158, 11;
+
+  --ion-color-danger: #f43f5e;
+  --ion-color-danger-rgb: 244, 63, 94;
+
+  /* Toolbar + tab bar */
+  --ion-toolbar-background: #6366f1;
+  --ion-toolbar-color: #ffffff;
+  --ion-tab-bar-color-selected: #6366f1;
+}
+
+/* Rounded + subtle shadow polish */
+ion-card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+ion-button {
+  --border-radius: 12px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+ion-badge {
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+ion-progress-bar {
+  height: 8px;
+  border-radius: 4px;
+}
